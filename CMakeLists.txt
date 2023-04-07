@@ -210,9 +210,8 @@ include_directories(
 
 add_executable(tf_server src/service_server.cpp)
 add_executable(tf_broadcast src/tf_broadcast.cpp)
-add_executable(tf_broadcast_oneshot src/tf_broadcast_oneshot.cpp)
 target_link_libraries(tf_server ${catkin_LIBRARIES})
 target_link_libraries(tf_broadcast ${catkin_LIBRARIES})
-target_link_libraries(tf_broadcast_oneshot ${catkin_LIBRARIES})
+
 
 
