@@ -11,4 +11,5 @@ In the tf_broadcast.cpp file is implemented a service client that constantly sen
 ```
 $ rosrun rl2023_ex4 tf_broadcast base_link end_effector
 ```
- file:///home/nameless/Pictures/Screenshots/Screenshot%20from%202023-04-07%2012-26-13.png
+
+![Screenshot from 2023-04-07 12-26-13](https://user-images.githubusercontent.com/127132537/230594538-47fe1d4c-cda0-4d25-a22a-0ec71e1e1ca3.png)
