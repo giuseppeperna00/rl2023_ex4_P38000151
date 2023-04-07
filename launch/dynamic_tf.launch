@@ -1,0 +1,7 @@
+<?xml version = "1.0"?>
+
+<launch>
+	<node pkg = "tf" type = "dynamic_transform_publisher" name = "frame_b_in_frame_a" />
+	<arg name = "frame_a"/>
+	<arg name = "frame_b"/>
+</launch>
